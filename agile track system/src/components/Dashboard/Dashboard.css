@@ -1,0 +1,122 @@
+/* Background with white and blue mix */
+body {
+    background: linear-gradient(to right, #1a1f33, #004080); /* Dark navy blue to deep blue */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0); /* Ensures text stands out */
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Buttons */
+.add-button, .create-button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px; /* Reduced padding */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-button:hover, .create-button:hover {
+    background-color: #0056b3;
+}
+
+/* Scrum Form (Smaller Height) */
+.scrum-form {
+    background: white;
+    padding: 8px; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Slightly narrower */
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* Reduced gap between form fields */
+}
+
+/* Form Inputs */
+.form-group {
+    margin-bottom: 4px; /* Reduced spacing */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px; /* Reduced spacing */
+    font-size: 13px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 4px; /* Reduced input height */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* Scrum List */
+.scrum-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.scrum-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    background: white;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Get Details Button */
+.details-button {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+/* Align form and scrum list */
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 12px;
+}
+
+/* Scrum Details Section */
+.scrum-details-container {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 200%;
+    max-width: 400px;
+}
+
+.scrum-details-container h3 {
+    margin-bottom: 8px;
+}
