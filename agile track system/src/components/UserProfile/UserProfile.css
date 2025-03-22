@@ -1,0 +1,101 @@
+/* Background with white and blue mix */
+body {
+    background: linear-gradient(to right, #ffffff, #cce0ff);
+}
+
+/* Profile Container */
+.profile-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Buttons */
+.add-button, .create-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.add-button:hover, .create-button:hover {
+    background-color: #0056b3;
+}
+
+/* User Form */
+.user-form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form Inputs */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* User List */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between cards */
+    padding: 0;
+}
+.user-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures button stays on the right */
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.history-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.history-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Task List */
+.task-list {
+    margin-top: 15px;
+    padding-left: 0;
+}
+
+.task-list li {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+}
